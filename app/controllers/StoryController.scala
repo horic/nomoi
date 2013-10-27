@@ -4,9 +4,8 @@ import play.api.mvc.{Action, Controller, Call}
 import models.Story
 import play.api.libs.json._
 
-/**
- *
- */
+
+
 object StoryController extends Controller {
 
   def list = Action {
